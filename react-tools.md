@@ -86,8 +86,8 @@ Additionally, the [language-babel](https://atom.io/packages/language-babel) pack
 
 If you have Emmet installed and you would like to use its functionality inside of `.jsx` files simply:
 
-1) Click Atom -> Keymap
-2) When the file `keymap.cson` pops up, paste this code at the bottom: 
+1. Click Atom -> Keymap
+1. When the file `keymap.cson` pops up, paste this code at the bottom: 
 ```
 'atom-text-editor[data-grammar="source js jsx"]:not([mini])':
   'shift-tab': 'emmet:expand-abbreviation-with-tab'
